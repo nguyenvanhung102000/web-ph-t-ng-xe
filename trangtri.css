@@ -1,0 +1,571 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: ivory;
+} 
+
+ .container{
+    width: 90%;
+    height: 6000px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+} 
+
+.menus{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: blanchedalmond;
+}
+
+div ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+div ul li{
+    padding: 15px 0;
+    cursor: pointer;
+
+}
+
+div ul li.items{
+    position: relative;
+    width: auto;
+    margin: 0 15px;
+    text-align: center;
+}
+
+div ul li a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+div ul li.items::after{
+    position: absolute;
+    left: 0;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: cyan;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+div ul li.itwms:hover:after{
+    opacity: 1;
+    bottom: 15px;
+}
+
+div ul li:hover a{
+color: cyan;
+}
+
+.fullmenu{
+    width: 100%;
+    height: 430px;
+    display: flex;
+}
+
+.danhmuc{
+    width: 20%;
+    height: 430px;
+}
+
+.muc{
+    width: 100%;
+    height: 50px;
+    font-size: 23px;
+    color: white;
+    text-align: center;
+    background-color: slategray;
+    top: 25px;
+}
+.muc b{
+    line-height: 50px;
+}
+
+.muc1{
+    width: 100%;
+    height: 60px;
+}
+
+.muc1 button{
+    width: 100%;
+    height: 60px;
+}
+
+.muc1 a{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.muc2{
+    width: 100%;
+    height: 60px;
+    background-color: tomato;
+}
+
+.muc2 button{
+    width: 100%;
+    height: 60px;
+}
+
+.muc2 a{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.muc3{
+    width: 100%;
+    height: 60px;
+    background-color: tomato;
+}
+
+.muc3 button{
+    width: 100%;
+    height: 60px;
+}
+
+.muc3 a{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.muc4{
+    width: 100%;
+    height: 60px;
+    background-color: tomato;
+}
+
+.muc4 button{
+    width: 100%;
+    height: 60px;
+}
+
+.muc4 a{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.muc5{
+    width: 100%;
+    height: 60px;
+    background-color: tomato;
+}
+
+.muc5 button{
+    width: 100%;
+    height: 60px;
+}
+
+.muc5 a{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.muc6{
+    width: 100%;
+    height: 60px;
+}
+
+.muc6 button{
+    width: 100%;
+    height: 60px;
+}
+
+.muc6 a{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu {
+    width: 60%;
+    height: 400px;
+}
+
+.menu img{
+    width: 100%;
+    height: 410px;
+}
+
+.diachi{
+    width: 20%;
+    height: 430px;
+}
+
+.dc1{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: red;
+    font-size: 18px;
+}
+.dc1 i{
+    font-size: 12px;
+}
+
+.dc2{
+    width: 100%;
+    height: 60px;
+}
+.dc2 a{
+    text-decoration: none;
+}
+.diachi a:hover{
+    color: tan;
+}
+
+.dc3{
+    width: 100%;
+    height: 60px;
+}
+.dc3 a{
+    text-decoration: none;
+}
+.dc4{
+    width: 100%;
+    height: 60px;
+}
+.dc4 a{
+    text-decoration: none;
+    
+}
+.dc5{
+    width: 100%;
+    height: 60px;
+}
+.dc5 a{
+    text-decoration: none;
+    
+}
+.dc6{
+    width: 100%;
+    height: 60px;
+}
+.dc6 a{
+    text-decoration: none;
+    
+}
+.dc7{
+    width: 100%;
+    height: 60px;
+}
+.dc7 a{
+    text-decoration: none;
+}
+
+.logo{
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+.logo1{
+    width:20%;
+    height: 200px;
+}
+
+.logo1 img{
+    width: 95%;
+    height: 140px;
+}
+
+.logo1 button{
+    width: 95%;
+    height: 150px;
+}
+.logo button:hover{
+    color: skyblue;
+}
+
+.logo2{
+    width:20%;
+    height: 200px;
+}
+
+.logo2 img{
+    width: 95%;
+    height: 140px;
+}
+
+.logo2 button{
+    width: 95%;
+    height: 150px;
+}
+
+.logo3 {
+    width:20%;
+    height: 200px;
+}
+
+.logo3 img{
+    width: 95%;
+    height: 140px;
+}
+
+.logo3 button{
+    width: 95%;
+    height: 150px;
+}
+
+.logo4 {
+    width:20%;
+    height: 200px;
+}
+
+.logo4 img{
+    width: 95%;
+    height: 140px;
+}
+
+.logo4 button{
+    width: 95%;
+    height: 150px;
+}
+
+.logo5 {
+    height: 200px;
+}
+
+.logo5 img{
+    height: 140px;
+}
+
+.logo5 button{
+    height: 150px;
+}
+
+.content{
+    width: 100%;
+    height: 415px;
+   background-color: thistle;
+    display: flex;
+}
+
+.sp1 img{
+    width: 95%;
+    height: 300px;
+}
+
+.sp1 button{
+    width: 95%;
+    height: 100px;
+}
+
+.sp2 img{
+    width: 95%;
+    height: 300px;  
+}
+
+.sp2 button{
+    width: 95%;
+    height: 100px;
+}
+
+.sp3 img{
+    width: 95%;
+    height: 300px;
+}
+
+.sp3 button{
+    width: 95%;
+    height: 100px;
+}
+
+.sp4 img{
+    height: 300px;
+}
+
+.sp4 button{
+    width: 99%;
+    height: 100px;
+}
+.content1{
+    width: 100%;
+    height: 415px;
+    display: flex;
+    background-color: thistle;
+}
+.sp5{
+    width: 25%;
+    height: 405px;
+}
+
+.sp5 img{
+    width: 97%;
+    height: 300px;
+}
+
+.sp5 button{
+    width: 95%;
+    height: 100px;
+}
+.sp6{
+    width: 25%;
+    height: 405px;
+}
+.sp6 img{
+    width: 95%;
+    height: 300px;  
+}
+
+.sp6 button{
+    width: 95%;
+    height: 100px;
+}
+.sp7{
+    width: 25%;
+    height: 405px;
+}
+
+.sp7 img{
+    width: 95%;
+    height: 300px;
+}
+
+.sp7 button{
+    width: 95%;
+    height: 100px;
+}
+.sp8{
+    width: 25%;
+    height: 300px;
+}
+
+.sp8 img{
+    width: 99%;
+    height: 300px;
+}
+
+
+.sp8 button{
+    width: 99%;
+    height: 100px;
+}
+.content2{
+    width: auto;
+    height: 405px;
+   background-color: thistle;
+    display: flex;
+}
+.sp9{
+    width: 25%;
+    height: 405px;
+}
+.sp9 img{
+    width: 95%;
+    height: 300px;
+}
+
+.sp9 button{
+    width: 95%;
+    height: 100px;
+}
+.sp10{
+    width: 25%;
+    height: 405px;
+}
+.sp10 img{
+    width: 95%;
+    height: 300px;  
+}
+
+.sp10 button{
+    width: 95%;
+    height: 100px;
+}
+.sp11{
+    width: 25%;
+    height: 405px;
+}
+.sp11 img{
+    width: 95%;
+    height: 300px;
+}
+
+.sp11 button{
+    width: 95%;
+    height: 100px;
+}
+.sp12{
+   width: 25%;
+    height: 405px;
+}
+.sp12 img{
+    width: 99%;
+    height: 300px;
+}
+
+.sp12 button{
+    width: 99%;
+    height: 100px;
+}
+div div button:hover a{
+    color: red;
+}
+
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination-item--active .pagination-item__link{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}  
+
+.pagination-item__link{
+    display: block;
+    text-decoration: none;
+    font-size: 1,6rem;
+    color: #939393;
+    min-width: 40px;
+    height: 30px;
+}
+.chan{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(174, 185, 206);
+    display: flex;
+}
+.chan1{
+width: 33%;
+height: 300px;
+font-size: 15px;
+text-align: center;
+color: black;
+}
+
+.chan2{
+    width: 33%;
+    height: 45px;
+    
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+.chan3{
+    width: 33%;
+    height: 45px;
+    
+    font-size: 15px;
+    text-align: center;
+    color:black;
+}
+.chan .chan1 a:hover{
+    color: blue;
+}
+.chan .chan2 a:hover{
+    color: blue;
+}
+.chan .chan3 a:hover{
+    color: blue;
+}
