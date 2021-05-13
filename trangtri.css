@@ -6,9 +6,10 @@ body{
 
  .container{
     width: 90%;
-    height: 6000px;
+    height: 2500px;
     margin: 0 auto;
 }
+
 a{
     text-decoration: none;
 } 
@@ -87,6 +88,7 @@ color: cyan;
     background-color: slategray;
     top: 25px;
 }
+
 .muc b{
     line-height: 50px;
 }
@@ -207,6 +209,7 @@ color: cyan;
     background-color: red;
     font-size: 18px;
 }
+
 .dc1 i{
     font-size: 12px;
 }
@@ -215,9 +218,7 @@ color: cyan;
     width: 100%;
     height: 60px;
 }
-.dc2 a{
-    text-decoration: none;
-}
+
 .diachi a:hover{
     color: tan;
 }
@@ -226,39 +227,25 @@ color: cyan;
     width: 100%;
     height: 60px;
 }
-.dc3 a{
-    text-decoration: none;
-}
+
 .dc4{
     width: 100%;
     height: 60px;
 }
-.dc4 a{
-    text-decoration: none;
-    
-}
+
 .dc5{
     width: 100%;
     height: 60px;
 }
-.dc5 a{
-    text-decoration: none;
-    
-}
+
 .dc6{
     width: 100%;
     height: 60px;
 }
-.dc6 a{
-    text-decoration: none;
-    
-}
+
 .dc7{
     width: 100%;
     height: 60px;
-}
-.dc7 a{
-    text-decoration: none;
 }
 
 .logo{
@@ -281,6 +268,7 @@ color: cyan;
     width: 95%;
     height: 150px;
 }
+
 .logo button:hover{
     color: skyblue;
 }
@@ -387,6 +375,7 @@ color: cyan;
     width: 99%;
     height: 100px;
 }
+
 .content1{
     width: 100%;
     height: 415px;
@@ -407,10 +396,12 @@ color: cyan;
     width: 95%;
     height: 100px;
 }
+
 .sp6{
     width: 25%;
     height: 405px;
 }
+
 .sp6 img{
     width: 95%;
     height: 300px;  
@@ -420,6 +411,7 @@ color: cyan;
     width: 95%;
     height: 100px;
 }
+
 .sp7{
     width: 25%;
     height: 405px;
@@ -434,6 +426,7 @@ color: cyan;
     width: 95%;
     height: 100px;
 }
+
 .sp8{
     width: 25%;
     height: 300px;
@@ -449,6 +442,7 @@ color: cyan;
     width: 99%;
     height: 100px;
 }
+
 .content2{
     width: auto;
     height: 405px;
@@ -459,6 +453,7 @@ color: cyan;
     width: 25%;
     height: 405px;
 }
+
 .sp9 img{
     width: 95%;
     height: 300px;
@@ -468,10 +463,12 @@ color: cyan;
     width: 95%;
     height: 100px;
 }
+
 .sp10{
     width: 25%;
     height: 405px;
 }
+
 .sp10 img{
     width: 95%;
     height: 300px;  
@@ -481,10 +478,12 @@ color: cyan;
     width: 95%;
     height: 100px;
 }
+
 .sp11{
     width: 25%;
     height: 405px;
 }
+
 .sp11 img{
     width: 95%;
     height: 300px;
@@ -494,10 +493,12 @@ color: cyan;
     width: 95%;
     height: 100px;
 }
+
 .sp12{
    width: 25%;
     height: 405px;
 }
+
 .sp12 img{
     width: 99%;
     height: 300px;
@@ -507,6 +508,7 @@ color: cyan;
     width: 99%;
     height: 100px;
 }
+
 div div button:hover a{
     color: red;
 }
@@ -516,11 +518,6 @@ div div button:hover a{
     align-items: center;
     justify-content: center;
 }
-
-.pagination-item--active .pagination-item__link{
-    color: var(--white-color);
-    background-color: var(--primary-color);
-}  
 
 .pagination-item__link{
     display: block;
